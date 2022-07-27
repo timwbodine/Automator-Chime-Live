@@ -71,12 +71,7 @@ ditto -xk "$zipfile" ~/Library/Application\ Support/-=AC2=-
 xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Prep\ AC2\ -\ NY\ v.25a\ \(iOS\ 10.1.1\).app
 xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Prep\ AC2\ -\ UK\ v.25a\ \(iOS\ 10.1.1\).app
 xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/1_Get\ Clone\ Master\ Files.app
-xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/2_Set\ Up\ Extra\ Cloner.app
-chflags -f uchg ~/Library/Application\ Support/-=AC2=-
-chflags -f uchg ~/Library/Application\ Support/-=AC2=-/*
-chflags -f uchg ~/Library/Application\ Support/-=AC2=-/Tools
-chflags -f uchg ~/Library/Application\ Support/-=AC2=-/Tools/*
-chflags -f uchg ~/Library/Application\ Support/-=AC2=-/Tools/x_Admin</string>
+xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/2_Set\ Up\ Extra\ Cloner.app</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -189,7 +184,7 @@ chflags -f uchg ~/Library/Application\ Support/-=AC2=-/Tools/x_Admin</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>489.500000:252.000000</string>
+				<string>769.000000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -291,7 +286,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>489.500000:497.000000</string>
+				<string>769.000000:497.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -301,7 +296,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>D9048054-4D12-4100-A229-FE21118A841D</key>
+		<key>1C12EAC8-CAB3-4EEA-8807-1C6D33CF6CDC</key>
 		<dict>
 			<key>from</key>
 			<string>66786ABA-F5C2-4A7E-8BBA-496DA5713314 - 66786ABA-F5C2-4A7E-8BBA-496DA5713314</string>
