@@ -232,7 +232,7 @@ xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/2_
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		set homeFolder to path to home folder as string	set ac2Folder to homeFolder &amp; "Library:Application Support:-=AC2=-"	tell application "Finder"		select ac2Folder		delay 1		tell application "System Events" to tell process "Finder" to keystroke "t" using {control down, command down}		close window 1	end tell		return inputend run</string>
+					<string>on run {input, parameters}		set homeFolder to path to home folder as string	set ac2Folder to homeFolder &amp; "Library:Application Support:-=AC2=-"	tell application "Finder"		select ac2Folder	end tell		return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
