@@ -85,6 +85,8 @@ ditto -xk "$zipfile" ~/Desktop/-=ExtraClonerAC2=-
 				</array>
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
+				<key>Disabled</key>
+				<false/>
 				<key>InputUUID</key>
 				<string>CBC0113D-E1F8-47F4-BBBE-E7CA224A54F5</string>
 				<key>Keywords</key>
@@ -171,12 +173,10 @@ ditto -xk "$zipfile" ~/Desktop/-=ExtraClonerAC2=-
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>441.500000:252.000000</string>
+				<string>484.500000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -284,12 +284,10 @@ ditto -xk "$zipfile" ~/Desktop/-=ExtraClonerAC2=-
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>441.500000:354.000000</string>
+				<string>484.500000:354.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Pause.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -456,12 +454,10 @@ cp -r ~/Desktop/-=ExtraClonerAC2=-/-=LocalAC2=- ~/Desktop</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>441.500000:536.000000</string>
+				<string>484.500000:536.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -562,12 +558,10 @@ cp -r ~/Desktop/-=ExtraClonerAC2=-/-=LocalAC2=- ~/Desktop</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>441.500000:773.000000</string>
+				<string>484.500000:773.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -618,7 +612,7 @@ cp -r ~/Desktop/-=ExtraClonerAC2=-/-=LocalAC2=- ~/Desktop</string>
 				<key>Class Name</key>
 				<string>MoveToTrashAction</string>
 				<key>InputUUID</key>
-				<string>D1A290EE-E86B-4142-AA42-CD25EDAC67DA</string>
+				<string>D96DD165-07F2-4942-B046-82E21DF67533</string>
 				<key>Keywords</key>
 				<array>
 					<string>File</string>
@@ -628,7 +622,7 @@ cp -r ~/Desktop/-=ExtraClonerAC2=-/-=LocalAC2=- ~/Desktop</string>
 					<string>Delete</string>
 				</array>
 				<key>UUID</key>
-				<string>C2C98CC3-B856-4CD3-9F60-4B4D04A9D2B4</string>
+				<string>D747CDF1-8B69-4BA3-8B81-6C344759597D</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -806,12 +800,10 @@ cp -r ~/Desktop/-=LocalAC2=-/com.apple.configurator ~/Library/Group\ Containers/
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>441.500000:1020.000000</string>
+				<string>484.500000:1020.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -821,35 +813,35 @@ cp -r ~/Desktop/-=LocalAC2=-/com.apple.configurator ~/Library/Group\ Containers/
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>16C26CBB-0738-4085-8CF5-656467D11F13</key>
+		<key>1E67F780-9E46-4D8F-B297-4CE78E38E9FD</key>
+		<dict>
+			<key>from</key>
+			<string>7F30E0F3-9A83-45D0-8243-2D177D735C65 - 7F30E0F3-9A83-45D0-8243-2D177D735C65</string>
+			<key>to</key>
+			<string>51879A35-11EF-4D08-80F5-9F7B1569A01A - 51879A35-11EF-4D08-80F5-9F7B1569A01A</string>
+		</dict>
+		<key>A8927B01-2497-451A-A385-1ED466844B44</key>
+		<dict>
+			<key>from</key>
+			<string>9C59AC47-048A-461F-9151-7D2397F38728 - 9C59AC47-048A-461F-9151-7D2397F38728</string>
+			<key>to</key>
+			<string>7F30E0F3-9A83-45D0-8243-2D177D735C65 - 7F30E0F3-9A83-45D0-8243-2D177D735C65</string>
+		</dict>
+		<key>C49955E6-BDB2-42CF-8659-12AA6F3F3F9B</key>
 		<dict>
 			<key>from</key>
 			<string>51879A35-11EF-4D08-80F5-9F7B1569A01A - 51879A35-11EF-4D08-80F5-9F7B1569A01A</string>
 			<key>to</key>
-			<string>C2C98CC3-B856-4CD3-9F60-4B4D04A9D2B4 - C2C98CC3-B856-4CD3-9F60-4B4D04A9D2B4</string>
+			<string>D747CDF1-8B69-4BA3-8B81-6C344759597D - D747CDF1-8B69-4BA3-8B81-6C344759597D</string>
 		</dict>
-		<key>5DCA0A49-E385-47C9-A122-A7E631852019</key>
+		<key>D6E7B6B3-2EBD-4FA7-AC50-BC747F989CF1</key>
 		<dict>
 			<key>from</key>
 			<string>639B2C9A-D596-4394-AF48-3F96F2BC8EE1 - 639B2C9A-D596-4394-AF48-3F96F2BC8EE1</string>
 			<key>to</key>
 			<string>9C59AC47-048A-461F-9151-7D2397F38728 - 9C59AC47-048A-461F-9151-7D2397F38728</string>
 		</dict>
-		<key>C1569D4F-9F9D-400C-A390-9826945CEF45</key>
-		<dict>
-			<key>from</key>
-			<string>7F30E0F3-9A83-45D0-8243-2D177D735C65 - 7F30E0F3-9A83-45D0-8243-2D177D735C65</string>
-			<key>to</key>
-			<string>51879A35-11EF-4D08-80F5-9F7B1569A01A - 51879A35-11EF-4D08-80F5-9F7B1569A01A</string>
-		</dict>
-		<key>DB66D6B1-EE19-4291-8DB1-D749D1FE90C1</key>
-		<dict>
-			<key>from</key>
-			<string>9C59AC47-048A-461F-9151-7D2397F38728 - 9C59AC47-048A-461F-9151-7D2397F38728</string>
-			<key>to</key>
-			<string>7F30E0F3-9A83-45D0-8243-2D177D735C65 - 7F30E0F3-9A83-45D0-8243-2D177D735C65</string>
-		</dict>
-		<key>E6ACC0A9-F8A0-4F48-860B-EB23A823EC97</key>
+		<key>F73B0559-1E3D-43EC-BCE1-A449DDB334AB</key>
 		<dict>
 			<key>to</key>
 			<string>7F565FB7-527D-4CFE-B6FE-C9270BB06063 - 7F565FB7-527D-4CFE-B6FE-C9270BB06063</string>
