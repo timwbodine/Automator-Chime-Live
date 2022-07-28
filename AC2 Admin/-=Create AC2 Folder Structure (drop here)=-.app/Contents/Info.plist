@@ -34,11 +34,11 @@
 	<key>CFBundleIconFile</key>
 	<string>ApplicationStub</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.automator.FIRST_MasterAC2files (Drop Here)</string>
+	<string>com.apple.automator.--Create-AC2-Folder-Structure--drop-here---</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>FIRST_MasterAC2files (Drop Here)</string>
+	<string>-=Create AC2 Folder Structure (drop here)=-</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

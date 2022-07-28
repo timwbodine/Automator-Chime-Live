@@ -61,6 +61,7 @@
 					<key>COMMAND_STRING</key>
 					<string>read zipfile
 mkdir -p ~/Library/Application\ Support/-=AC2=-
+mkdir -p ~/Desktop/-=LocalAC2=-
 chflags -f nouchg ~/Library/Application\ Support/-=AC2=-
 chflags -f nouchg ~/Library/Application\ Support/-=AC2=-/*
 chflags -f nouchg ~/Library/Application\ Support/-=AC2=-/Tools
@@ -71,7 +72,8 @@ ditto -xk "$zipfile" ~/Library/Application\ Support/-=AC2=-
 xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Prep\ AC2\ -\ NY\ v.25a\ \(iOS\ 10.1.1\).app
 xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Prep\ AC2\ -\ UK\ v.25a\ \(iOS\ 10.1.1\).app
 xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/1_Get\ Clone\ Master\ Files.app
-xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/2_Set\ Up\ Extra\ Cloner.app</string>
+xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/2_Set\ Up\ Extra\ Cloner.app
+</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -184,7 +186,7 @@ xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/2_
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.000000:252.000000</string>
+				<string>492.000000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -232,7 +234,7 @@ xattr -r -d com.apple.quarantine ~/Library/Application\ Support/-=AC2=-/Tools/2_
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		set homeFolder to path to home folder as string	set ac2Folder to homeFolder &amp; "Library:Application Support:-=AC2=-"	tell application "Finder"		select ac2Folder	end tell		return inputend run</string>
+					<string>on run {input, parameters}		set homeFolder to path to home folder as string	set ac2Folder to homeFolder &amp; "Library:Application Support:-=AC2=-"	set localFiles to homeFolder &amp; "Desktop:-=LocalAC2=-"	tell application "Finder"		select ac2Folder	end tell		return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -286,7 +288,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.000000:497.000000</string>
+				<string>492.000000:497.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
